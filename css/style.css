@@ -1,0 +1,52 @@
+.main-picture{
+    background-image: url("https://www.ruthrumack.com/wp-content/uploads/2014/02/Abstract-Grey-Background.png");
+    background-size: cover;
+    float: left;
+}
+.main-picture .contact {
+    float: right;
+    color: #c3c3c3;
+}
+.myNavBar{
+background-color: #7b7b7b;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+}
+.myNavBar .navbar-brand {
+    padding: 7px 10px;
+}
+.myNavBar .myNav {
+    padding-top: 1%
+}
+
+.myNavBar .btn{
+margin-left:10px;
+}
+
+.main-picture .name{
+    color: #c3c3c3;
+    display: inline-block; float: left;
+    padding-bottom: 3%
+}
+.about-me{
+    background-color: #7b7b7b;
+    color: white;
+    padding: 2%;
+
+}
+.about-me .info{
+    padding: 1%;
+}
+.main-picture .profile-img{
+    padding: 2%;
+    display: inline-block;
+    float: left;
+}
+.main-picture .contact {
+    font-size: 120%;
+    margin-bottom: 3%
+   
+}
+.fa {
+    font-size: 130%;
+}
