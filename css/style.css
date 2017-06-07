@@ -30,7 +30,7 @@ margin-left:10px;
 }
 
 .main-picture .name{
-    color: #c3c3c3;
+    color: white;
     display: inline-block;
     padding-bottom: 3%
 }
@@ -38,25 +38,26 @@ margin-left:10px;
 .main-picture .contact {
     font-size: 130%;
     margin-bottom: 3%;
-    color: #c3c3c3;
+    color: white;
 }
 
-/*
-.main-picture . contact .fa {
-    font-size: 130%;
-}
-*/
 
 
 /*About-me*/
+
 .about-me{
     background-color: #7b7b7b;
     color: white;
     padding: 2%;
 
 }
-
-.about-me .info{
-    padding: 1%;
+.filler{
+    padding-top: 3%;
 }
 
+
+a {
+    color: white;
+    word-wrap: break-word;
+
+}
