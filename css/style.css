@@ -1,54 +1,38 @@
+body{
+    background-color: white;
+    font-family: 'Germania One', cursive;
+}
+
 /*Header*/
-.myNavBar{
-background-color: #7b7b7b;
-    margin-bottom: 0;
-    padding-bottom: 15px;
-}
-.myNavBar .navbar-brand {
-    padding: 7px 10px;
-}
-.myNavBar .myNav {
-    padding-top: 1%
-}
-
-.myNavBar .btn{
-margin-left:10px;
-}
-
-
 /*Banner*/
-.main-picture{
-    background-image: url("https://www.ruthrumack.com/wp-content/uploads/2014/02/Abstract-Grey-Background.png");
+.main-banner .myBanner{
+    background-image: url(../img/banner.jpg);
     background-size: cover;
-    
-}
-
-.main-picture .profile-img{
-    padding: 2%;
-    display: inline-block;
-    
-}
-
-.main-picture .name{
+    background-repeat: no-repeat;
+    height: 700px;
     color: white;
-    display: inline-block;
-    padding-bottom: 3%
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
 }
 
-.main-picture .contact {
-    font-size: 130%;
-    margin-bottom: 3%;
-    color: white;
+.main-banner .myBanner .text{
+    
+    position: absolute;
+    width: 90%;
+    text-align: center;
 }
-
-
 
 /*About-me*/
 
 .about-me{
-    background-color: #7b7b7b;
+    background-color: #000000;
+    border-radius: 25px;
+    border: 10px solid #dedede;
     color: white;
     padding: 2%;
+    word-break: break-all;
 
 }
 .filler{
@@ -60,4 +44,14 @@ a {
     color: white;
     word-wrap: break-word;
 
+}
+
+/*Footer*/
+.footer{
+     
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: black;
+    padding-bottom: 2%;
 }

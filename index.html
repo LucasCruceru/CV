@@ -6,62 +6,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial.scale=1.0">
     <!--        Load bootstrap CSS-->
+    <link href="https://fonts.googleapis.com/css?family=Germania+One" rel="stylesheet">
     <link rel="stylesheet" href="libs/css/bootstrap.min.css">
     <link rel="stylesheet" href="libs/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="libs/css/font-awesome.min.css">
     <link href="css/style.css" rel="stylesheet" type="text/css" />
+   
 </head>
 
 <body>
     <!--        Header-->
-    <nav class="myNavBar navbar">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">
-                    <img alt="This is me" src="img/profile-pic.jpg" height="50px" class="img-circle">
-                </a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="myNav nav navbar-nav navbar-left">
-                    <li>
-                        <button type="button" class="myBtn btn">
-                            <a href="#">Contact</a>
-                        </button>
-                    </li>
-                    <li>
-                        <button type="button" class="myBtn btn">
-                            <a href="#">My Skills
-                        </a>
-                        </button>
-                    </li>
-                    <li>
-                        <button type="button" class="myBtn btn">
-                            <a href="#">About</a>
-                        </button>
-                    </li>
-                </ul>
-            </div>
+    <!DOCTYPE html>
+
+<div class="container-fluid header">
+ <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-3">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../CV/index.html">Cruceru Lucas</a>
         </div>
+    
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../CV/index.html">Home</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about-me">About-me</a></li>
+          </ul>
+      </div>
     </nav>
-    <!--        Main Picture-->
-    <div class="container-fluid main-picture">
-        <div class="profile-img img-responsive profile-pic">
-            <img alt="This is me" src="img/profile-pic.jpg" height="20%" width="20%" class="img-circle">
+    
+</div>
+
+    <!--        Main banner-->
+    <div class="container-fluid main-banner ">
+    <div class="container-fluid jumbotron myBanner">
+        <div class="container-fluid  text">
+        <div class="container-fluid img-responsive picture">
+            <img alt="This is me" src="img/profile-pic.jpg" width="20%" class="img-circle">
         </div>
-        <div class="contact container-fluid">
-            <div class="row">
-                <div class="name col-xs-6">
-                    <h1>Cruceru Naum-Lucas</h1>
-                    <h3>Find more about me</h3>
-                </div>
-                <div class="links col-xs-6">
-                    <h4><i class="fa fa-map-marker" aria-hidden="true"></i>
+                <h1 style="color:black;">Cruceru Naum-Lucas</h1>
+                <h3 style="color:black;">Contact and Find more about me down here</h3>
+                    <h4 id="contact"><i class="fa fa-map-marker" aria-hidden="true"></i>
                         <a href="https://www.google.com/maps/d/viewer?mid=1nksnMQZngqQqx1JCvFY7htH9ohg&hl=en_US&ll=47.05114106861126%2C21.936660999999958&z=13" target="_blank">Oradea, Romania</a></h4>
                     <h4><i class="fa fa-envelope" aria-hidden="true"></i>
 						<a href="mailto:lucascruceru@gmail.com">lucascruceru@gmail.com</a>
@@ -78,13 +67,13 @@
                     <h4><i class="fa fa-facebook" aria-hidden="true"></i>
 						<a href="https://www.facebook.com/lucascruceru" target="_blank">https://www.facebook.com/lucascruceru</a>
 					</h4>
-                </div>
-            </div>
         </div>
-    </div>
+
+        </div>
+        </div>
     <!--        About me -->
 
-        <div class=" container-fluid about-me">
+        <div id="about-me" class=" container-fluid about-me">
             <div class="row">
                 <div class="info col-xs-6">
                     <h2><i class="fa fa-graduation-cap" aria-hidden="true"></i> Education</h2>
@@ -193,15 +182,8 @@
 
     <!--        Footer-->
     <div class="footer container-fluid">
-        <u>
-			<b>Address Home</b>
-		</u>
-        <br /> Str. Nufărului nr. 87
-        <br /> 410597 Oradea, ROMÂNIA
-        <br /> Str. Nufărului nr. 87
-        <br /> 410597 Oradea, ROMÂNIA
-        <br /> Str. Nufărului nr. 87
-        <br /> 410597 Oradea, ROMÂNIA
+        <h1>Thank you and I hope we will get in touch soon</h1>
+        
     </div>
     <!--    Load bootstrap JS-->
     <script type="text/javascript" src="libs/js/jquery-3.2.1.min.js"></script>
